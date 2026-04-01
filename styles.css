@@ -861,6 +861,46 @@ a:hover {
   color: var(--muted);
 }
 
+.site-footer__stamp-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.25rem;
+  margin-top: 0.5rem;
+  border-top: 1px solid rgba(235, 227, 212, 0.06);
+}
+
+.site-footer--compact {
+  padding-top: 1rem;
+  margin-top: auto;
+}
+
+.site-footer--compact .site-footer__stamp-row {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.site-footer__stamp {
+  display: inline-flex;
+  align-items: center;
+  opacity: 0.88;
+  transition: opacity 0.25s var(--ease-out);
+}
+
+.site-footer__stamp:hover,
+.site-footer__stamp:focus-visible {
+  opacity: 1;
+  outline: none;
+}
+
+.site-footer__stamp img {
+  display: block;
+  width: auto;
+  max-width: min(180px, 100%);
+  height: auto;
+}
+
 /* Lightbox */
 .lightbox {
   position: fixed;
@@ -1055,6 +1095,8 @@ a:hover {
 /* Сторінка напрямку */
 .direction-page-body {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .site-header--inner {
@@ -1068,6 +1110,7 @@ a:hover {
 }
 
 .direction-main {
+  flex: 1 0 auto;
   padding: calc(var(--header-h) + 1.5rem) 0 4rem;
   background: var(--paper);
   color: var(--text);

@@ -152,6 +152,22 @@
         ${f.adminLink ? ` · <a class="site-footer__admin" href="admin/admin.html">Адмін</a>` : ""}</span>
         <a href="#top" class="to-top magnetic">${escapeHtml(f.toTop)}</a>
       </div>
+      <div class="container site-footer__stamp-row">
+        <a
+          class="site-footer__stamp"
+          href="https://github.com/Optimus9221"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="/stamp/optimus-stamp-dark-theme-uk.svg"
+            alt="Розроблено Optimus"
+            width="180"
+            height="32"
+            decoding="async"
+          />
+        </a>
+      </div>
     </footer>`;
   }
 

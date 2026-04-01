@@ -4,7 +4,7 @@
   "functions": {
     "api/index.js": {
       "maxDuration": 60,
-      "includeFiles": "{index.html,direction.html,favicon.svg,styles.css,data/**,images/**,admin/**,js/**}"
+      "includeFiles": "{index.html,direction.html,favicon.svg,styles.css,data/**,images/**,admin/**,js/**,stamp/**}"
     }
   }
 }
