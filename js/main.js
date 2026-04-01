@@ -148,11 +148,8 @@
 
     <footer class="site-footer">
       <div class="container site-footer__inner">
-        <span>© <span id="year"></span> ${escapeHtml(f.copyrightName)} · <span class="site-footer__handle">${escapeHtml(f.handle)}</span>
+        <span class="site-footer__meta">© <span id="year"></span> ${escapeHtml(f.copyrightName)} · <span class="site-footer__handle">${escapeHtml(f.handle)}</span>
         ${f.adminLink ? ` · <a class="site-footer__admin" href="admin/admin.html">Адмін</a>` : ""}</span>
-        <a href="#top" class="to-top magnetic">${escapeHtml(f.toTop)}</a>
-      </div>
-      <div class="container site-footer__stamp-row">
         <a
           class="site-footer__stamp"
           href="https://optimus-project.vercel.app/"
@@ -161,12 +158,13 @@
         >
           <img
             src="/stamp/optimus-stamp-dark-theme-uk.svg"
-            alt="Розроблено Optimus"
-            width="180"
-            height="32"
+            alt="Розроблено — Optimus Project"
+            width="200"
+            height="36"
             decoding="async"
           />
         </a>
+        <a href="#top" class="to-top magnetic site-footer__to-top">${escapeHtml(f.toTop)}</a>
       </div>
     </footer>`;
   }
