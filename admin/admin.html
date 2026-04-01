@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Кабінет редактора — портфоліо</title>
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body class="admin--guest">
+    <div id="admin-login" class="admin-login" aria-labelledby="login-title">
+      <div class="admin-login__box">
+        <h1 id="login-title">Особистий кабінет</h1>
+        <p class="admin-login__lead">
+          Введіть email адміністратора та пароль. На сервері налаштовуються змінні
+          <code>ADMIN_EMAIL</code> та <code>ADMIN_TOKEN</code> (у Docker — у
+          <code>docker-compose.yml</code>).
+        </p>
+        <div class="admin-login__field">
+          <label for="login-email">Електронна пошта</label>
+          <input
+            id="login-email"
+            type="email"
+            autocomplete="username"
+            placeholder="admin@example.com"
+          />
+        </div>
+        <div class="admin-login__field">
+          <label for="login-password">Пароль адміністратора</label>
+          <input
+            id="login-password"
+            type="password"
+            autocomplete="current-password"
+            placeholder="Пароль"
+          />
+        </div>
+        <button type="button" class="admin-login__submit" id="btn-login">Увійти</button>
+        <p id="login-error" class="admin-login__error" hidden role="alert"></p>
+        <a class="admin-login__site-link" href="../index.html">← На сайт</a>
+      </div>
+    </div>
+
+    <div id="admin-app" class="admin-app" hidden>
+      <header class="admin-bar">
+        <span class="admin-bar__brand">Редактор сайту</span>
+        <span class="admin-bar__user" id="admin-user-email" hidden></span>
+        <a href="../index.html">Переглянути сайт</a>
+        <button type="button" id="btn-reload">Оновити з сервера</button>
+        <button type="button" id="btn-save" class="admin-bar__primary">Зберегти зміни</button>
+        <label class="admin-bar__upload-label">
+          Завантажити фото
+          <input
+            id="file-upload"
+            type="file"
+            accept="image/jpeg,image/png,image/webp,image/gif"
+            hidden
+          />
+        </label>
+        <button type="button" id="btn-logout" class="admin-bar__logout">Вийти</button>
+      </header>
+      <p id="status"></p>
+      <div id="form"></div>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,364 @@
+{
+  "meta": {
+    "title": "Alina Khailova — фотограф",
+    "description": "Портфоліо фотографа Alina Khailova: індивідуальні, парні, love story та сімейні зйомки.",
+    "themeColor": "#12100e",
+    "logo": "Khailova"
+  },
+  "hero": {
+    "image": "images/hero.jpg",
+    "imageAlt": "Атмосфера зйомки Alina Khailova",
+    "username": "@khailova.ph",
+    "nameLine1": "Alina",
+    "nameLine2": "Khailova",
+    "leadLines": [
+      "Фотографія, в якій ти відчуєш себе",
+      "бажаною, живою і справжньою"
+    ],
+    "ctaText": "Подивитися зйомки",
+    "ctaHref": "#work",
+    "scrollText": "Гортайте"
+  },
+  "about": {
+    "image": "images/about.png",
+    "imageAlt": "Портрет фотографині Alina Khailova",
+    "caption": "Фотограф · м. Вінниця",
+    "title": "Про мене",
+    "paragraphs": [
+      "Я знімаю не «гарно» — я знімаю тебе справжню.",
+      "Ту, яку ти не завжди дозволяєш собі бачити — більш сміливу, чуттєву, живу.",
+      "На моїх зйомках не потрібно вміти позувати — потрібно лише бути."
+    ],
+    "quote": "І я покажу тобі, яка ти насправді."
+  },
+  "work": {
+    "title": "Галерея",
+    "subtitle": "Індивідуальні, love story, сімейні та інші формати — обери свій настрій.",
+    "items": [
+      {
+        "layout": "normal",
+        "image": "images/portfolio-1.jpg",
+        "alt": "Індивідуальна зйомка, фрагмент портфоліо",
+        "tag": "Індивідуальні",
+        "year": "про тебе",
+        "ariaLabel": "Відкрити велике фото: індивідуальна зйомка"
+      },
+      {
+        "layout": "wide",
+        "image": "images/portfolio-2.jpg",
+        "alt": "Жіноча / чоловіча зйомка",
+        "tag": "Жіночі / чоловічі",
+        "year": "естетика",
+        "ariaLabel": "Відкрити велике фото: жіночі та чоловічі зйомки"
+      },
+      {
+        "layout": "normal",
+        "image": "images/portfolio-3.jpg",
+        "alt": "Love story, пара",
+        "tag": "Love story",
+        "year": "любов",
+        "ariaLabel": "Відкрити велике фото: love story"
+      },
+      {
+        "layout": "wide",
+        "image": "images/portfolio-4.jpg",
+        "alt": "Сімейна зйомка",
+        "tag": "Сімейні",
+        "year": "тепло",
+        "ariaLabel": "Відкрити велике фото: сімейна зйомка"
+      },
+      {
+        "layout": "full",
+        "image": "images/work-studio.jpg",
+        "alt": "Зйомка в студії з гіпсовими бюстами",
+        "tag": "Студія",
+        "year": "атмосфера",
+        "ariaLabel": "Відкрити велике фото: атмосферна зйомка в студії"
+      }
+    ]
+  },
+  "directionsSection": {
+    "title": "Напрямки",
+    "marquee": [
+      "м. Вінниця",
+      "індивідуальні",
+      "love story",
+      "сімейні",
+      "жіночі / чоловічі",
+      "студія",
+      "репортаж"
+    ]
+  },
+  "directions": [
+    {
+      "id": "individual",
+      "title": "Індивідуальні",
+      "excerpt": "Про твоє тіло, про твою справжність — без шаблонів і зайвої пози.",
+      "cover": "images/portfolio-1.jpg",
+      "coverAlt": "Індивідуальна зйомка",
+      "gallery": [
+        {
+          "src": "images/portfolio-1.jpg",
+          "alt": "Індивідуальна зйомка — природне світло"
+        },
+        {
+          "src": "images/hero.jpg",
+          "alt": "Портрет у теплій атмосфері"
+        },
+        {
+          "src": "images/portfolio-2.jpg",
+          "alt": "Акцент на характері та погляді"
+        },
+        {
+          "src": "images/about.png",
+          "alt": "Студійний портрет, м’який світ"
+        },
+        {
+          "src": "images/work-studio.jpg",
+          "alt": "Концептуальний кадр в студії"
+        },
+        {
+          "src": "images/portfolio-3.jpg",
+          "alt": "Вуличний портрет, рух і настрій"
+        },
+        {
+          "src": "images/portfolio-4.jpg",
+          "alt": "Зйомка на локації, теплі тони"
+        },
+        {
+          "src": "images/portfolio-1.jpg",
+          "alt": "Приклад: деталі та текстура"
+        }
+      ]
+    },
+    {
+      "id": "love-story",
+      "title": "Love story",
+      "excerpt": "Історія вашої любові в кадрах, які хочеться переглядати знову і знову.",
+      "cover": "images/portfolio-3.jpg",
+      "coverAlt": "Love story",
+      "gallery": [
+        {
+          "src": "images/portfolio-3.jpg",
+          "alt": "Love story — прогулянка разом"
+        },
+        {
+          "src": "images/portfolio-1.jpg",
+          "alt": "Пара: ніжність і близькість"
+        },
+        {
+          "src": "images/portfolio-4.jpg",
+          "alt": "Сімейна теплота, обійми"
+        },
+        {
+          "src": "images/hero.jpg",
+          "alt": "Романтичний вечірній настрій"
+        },
+        {
+          "src": "images/portfolio-2.jpg",
+          "alt": "Разом у кадрі, природні емоції"
+        },
+        {
+          "src": "images/work-studio.jpg",
+          "alt": "Студійна love story, світло й тінь"
+        },
+        {
+          "src": "images/about.png",
+          "alt": "Приклад: портрет пари"
+        },
+        {
+          "src": "images/portfolio-3.jpg",
+          "alt": "Приклад: історія в деталях"
+        }
+      ]
+    },
+    {
+      "id": "family",
+      "title": "Сімейні",
+      "excerpt": "Тепло і близькість — щоб зберегти цей етап таким, яким ви його відчуваєте.",
+      "cover": "images/portfolio-4.jpg",
+      "coverAlt": "Сімейна зйомка",
+      "gallery": [
+        {
+          "src": "images/portfolio-4.jpg",
+          "alt": "Сімейна зйомка — разом на природі"
+        },
+        {
+          "src": "images/portfolio-3.jpg",
+          "alt": "Батьки та діти, щирі моменти"
+        },
+        {
+          "src": "images/portfolio-1.jpg",
+          "alt": "Домашній затишок у кадрі"
+        },
+        {
+          "src": "images/portfolio-2.jpg",
+          "alt": "Покоління: обійми та сміх"
+        },
+        {
+          "src": "images/hero.jpg",
+          "alt": "Теплий вечір, сімейний настрій"
+        },
+        {
+          "src": "images/about.png",
+          "alt": "Портрет з дітьми"
+        },
+        {
+          "src": "images/work-studio.jpg",
+          "alt": "Студійна сімейна зйомка"
+        },
+        {
+          "src": "images/portfolio-4.jpg",
+          "alt": "Приклад: свято та емоції"
+        }
+      ]
+    },
+    {
+      "id": "women-men",
+      "title": "Жіночі / чоловічі",
+      "excerpt": "М’якість і сила, естетика тіла — зйомки, що підкреслюють характер.",
+      "cover": "images/portfolio-2.jpg",
+      "coverAlt": "Жіноча / чоловіча зйомка",
+      "gallery": [
+        {
+          "src": "images/portfolio-2.jpg",
+          "alt": "Жіночий портрет, естетика"
+        },
+        {
+          "src": "images/hero.jpg",
+          "alt": "Чоловічий / унісекс настрій"
+        },
+        {
+          "src": "images/portfolio-1.jpg",
+          "alt": "М’які лінії та світло"
+        },
+        {
+          "src": "images/work-studio.jpg",
+          "alt": "Студія: контраст і характер"
+        },
+        {
+          "src": "images/about.png",
+          "alt": "Б’юті-портрет, деталі"
+        },
+        {
+          "src": "images/portfolio-3.jpg",
+          "alt": "Вуличний fashion-настрій"
+        },
+        {
+          "src": "images/portfolio-4.jpg",
+          "alt": "Тіло в русі, динаміка"
+        },
+        {
+          "src": "images/portfolio-2.jpg",
+          "alt": "Приклад: монохромний настрій"
+        }
+      ]
+    },
+    {
+      "id": "studio",
+      "title": "Студія та творчість",
+      "excerpt": "Концепція, світло, деталі — коли хочеться знімку з характером і настроєм.",
+      "cover": "images/work-studio.jpg",
+      "coverAlt": "Студійна зйомка",
+      "gallery": [
+        {
+          "src": "images/work-studio.jpg",
+          "alt": "Студія — концепція з реквізитом"
+        },
+        {
+          "src": "images/portfolio-2.jpg",
+          "alt": "Світлова схема, чіткі тіні"
+        },
+        {
+          "src": "images/about.png",
+          "alt": "Класичний студійний портрет"
+        },
+        {
+          "src": "images/portfolio-1.jpg",
+          "alt": "М’який світ, нейтральний фон"
+        },
+        {
+          "src": "images/hero.jpg",
+          "alt": "Атмосферне студійне світло"
+        },
+        {
+          "src": "images/portfolio-3.jpg",
+          "alt": "Колір і настрій у кадрі"
+        },
+        {
+          "src": "images/portfolio-4.jpg",
+          "alt": "Постановка та композиція"
+        },
+        {
+          "src": "images/work-studio.jpg",
+          "alt": "Приклад: творчий сет"
+        }
+      ]
+    },
+    {
+      "id": "reportage",
+      "title": "Репортаж і події",
+      "excerpt": "Живі моменти свят, зустрічей і важливих днів — без постановки, з емоцією.",
+      "cover": "images/portfolio-3.jpg",
+      "coverAlt": "Репортаж",
+      "gallery": [
+        {
+          "src": "images/portfolio-3.jpg",
+          "alt": "Репортаж — момент вітання"
+        },
+        {
+          "src": "images/portfolio-4.jpg",
+          "alt": "Свято, гості та емоції"
+        },
+        {
+          "src": "images/hero.jpg",
+          "alt": "Вечірка, світло й рух"
+        },
+        {
+          "src": "images/portfolio-1.jpg",
+          "alt": "Документальний кадр з події"
+        },
+        {
+          "src": "images/portfolio-2.jpg",
+          "alt": "Деталі декору та атмосфери"
+        },
+        {
+          "src": "images/work-studio.jpg",
+          "alt": "Офіційна частина, сцена"
+        },
+        {
+          "src": "images/about.png",
+          "alt": "Портрет гостя / спікера"
+        },
+        {
+          "src": "images/portfolio-3.jpg",
+          "alt": "Приклад: танець і драйв"
+        }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Зв’язок",
+    "text": "Якщо ти хочеш побачити себе інакше — тобі сюди. Напиши в зручний месенджер — відповім найближчим часом.",
+    "ctaText": "Записатися на зйомку",
+    "ctaHref": "https://instagram.com",
+    "mailText": "@khailova.ph",
+    "mailHref": "https://instagram.com",
+    "social": [
+      {
+        "label": "Instagram",
+        "href": "https://instagram.com"
+      },
+      {
+        "label": "Telegram / WhatsApp",
+        "href": "https://t.me"
+      }
+    ]
+  },
+  "footer": {
+    "copyrightName": "Alina Khailova",
+    "handle": "@khailova.ph",
+    "toTop": "Нагору",
+    "adminLink": true
+  }
+}

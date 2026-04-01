@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="" />
+  <meta name="theme-color" content="#12100e" />
+  <title>Alina Khailova — фотограф</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#top">До змісту</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="vignette" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">Khailova</a>
+    <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Відкрити меню">
+      <span class="nav-toggle__bar"></span>
+      <span class="nav-toggle__bar"></span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Головна навігація">
+      <a href="index.html#about">Про мене</a>
+      <a href="index.html#work">Зйомки</a>
+      <a href="index.html#stories">Напрямки</a>
+      <a href="index.html#contact">Зв’язок</a>
+    </nav>
+  </header>
+
+  <main id="site-main"></main>
+
+  <div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Перегляд фотографії">
+    <button type="button" class="lightbox__close" aria-label="Закрити">&times;</button>
+    <button type="button" class="lightbox__nav lightbox__prev" id="lightbox-prev" aria-label="Попереднє фото" hidden>‹</button>
+    <button type="button" class="lightbox__nav lightbox__next" id="lightbox-next" aria-label="Наступне фото" hidden>›</button>
+    <img class="lightbox__img" src="" alt="" />
+    <p class="lightbox__counter" id="lightbox-counter" hidden aria-live="polite"></p>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

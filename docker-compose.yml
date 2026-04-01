@@ -1,0 +1,13 @@
+services:
+  site:
+    build: .
+    ports:
+      - "${PORT:-8765}:8765"
+    environment:
+      ADMIN_EMAIL: ${ADMIN_EMAIL:-admin@example.com}
+      ADMIN_TOKEN: ${ADMIN_TOKEN:-dev-token}
+      PORT: "8765"
+    volumes:
+      - ./data:/app/data
+      - ./images:/app/images
+    restart: unless-stopped
