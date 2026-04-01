@@ -156,6 +156,10 @@ app.get(["/direction", "/direction/"], (_req, res) => {
   res.sendFile(path.join(ROOT, "direction.html"));
 });
 
+app.get("/", (_req, res) => {
+  res.sendFile(path.join(ROOT, "index.html"));
+});
+
 app.use(express.static(ROOT));
 
 const PORT = Number(process.env.PORT) || 8777;

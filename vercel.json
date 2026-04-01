@@ -3,7 +3,8 @@
   "rewrites": [{ "source": "/(.*)", "destination": "/api" }],
   "functions": {
     "api/index.js": {
-      "maxDuration": 60
+      "maxDuration": 60,
+      "includeFiles": "{index.html,direction.html,styles.css,data/**,images/**,admin/**,js/**}"
     }
   }
 }
